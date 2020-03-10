@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="mainone.js"></script>
+
+</head>
+<body>
+    <from >
+        <p style="width: 50%;" id="texts">P
+        </p>
+        <p>A = <label id="countA"></label></p>
+        <p>E = <label id="countE"></label></p>
+        <p>I = <label id="countI"></label></p>
+        <p>O = <label id="countO"></label></p>
+        <p>U = <label id="countU"></label></p>
+
+    </from>
+
+    <br><br><br>
+
+    <from id="personalGrade" >
+        <p>frist name <input type="text" id="fristname"></p>
+        <p>last name <input type="text" name="lestname" id="lestname"></p>
+        <p>nickname <input type="text" name="nickname" id="nickname"></p>
+        <p>age <input type="number" name="age" id="age"></p>
+
+        <table>
+            <tr>
+                <th>calculaste grade</th>
+                <th>credit</th>
+                <th>grade</th>
+            </tr>
+            <div>
+                <tr>
+                    <td>
+                        <p>subjects A</p>        
+                    </td>
+                    <td>
+                        <input type="number" name="creditA" id="creditA" step="0.01" min="0" max="4">
+                    </td>
+                    <td>
+                        <input type="number" name="gradeA" id="gradeA" step="0.01" min="0" max="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>subjects B</p>        
+                    </td>
+                    <td>
+                        <input type="number" name="creditB" id="creditB" step="0.01" min="0" max="4">
+                    </td>
+                    <td>
+                        <input type="number" name="gradeB" id="gradeB" step="0.01" min="0" max="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>subjects C</p>        
+                    </td>
+                    <td>
+                        <input type="number" name="creditC" id="creditC" step="0.01" min="0" max="4">
+                    </td>
+                    <td>
+                        <input type="number" name="gradeC" id="gradeC" step="0.01" min="0" max="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>subjects D</p>        
+                    </td>
+                    <td>
+                        <input type="number" name="creditD" id="creditD" step="0.01" min="0" max="4">
+                    </td>
+                    <td>
+                        <input type="number" name="gradeD" id="gradeD" step="0.01" min="0" max="4">
+                    </td>
+                </tr>
+            </div>
+        </table>
+
+        <button onClick="Submit();">Submit</button>
+        <button onClick="Reset();">Reset</button>
+
+        <div>
+            <p>name:<label id="nameOut"></label></p>
+            <p>nickname:<label id="nicknameOut"></label></p>
+            <p>age:<label id="ageOut"></label></p>
+            <p>GPA:<label id="GPAOut"></label></p>
+        </div>
+    </from>
+    <br><br><br><br>
+
+</body>
+</html>
